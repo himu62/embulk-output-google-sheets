@@ -8,7 +8,7 @@ RUN curl --create-dirs -o ~/.embulk/bin/embulk -L "https://dl.embulk.org/embulk-
 
 ENV PATH $PATH:/embulk/bin
 
-VOLUME /embulk-output-gsheets
-WORKDIR /embulk-output-gsheets
+VOLUME /embulk-output-google-sheets
+WORKDIR /embulk-output-google-sheets
 
 ENTRYPOINT [ "/bin/sh" ]

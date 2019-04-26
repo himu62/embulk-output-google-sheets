@@ -1,8 +1,8 @@
 module Embulk
   module Output
 
-    class GSheets < OutputPlugin
-      Plugin.register_output("gsheets", self)
+    class GoogleSheets < OutputPlugin
+      Plugin.register_output("google-sheets", self)
 
       def self.transaction(config, schema, count, &control)
         # configuration code:

@@ -1,6 +1,6 @@
-# gsheets output plugin for Embulk
+# google sheets output plugin for Embulk
 
-google-spreadsheet output plugin for Embulk
+Google Sheets output plugin for Embulk
 
 ## Overview
 
